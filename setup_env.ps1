@@ -3,10 +3,3 @@ if ( -Not (Test-Path "venv") ){
     python -m venv venv
     python.exe -m pip install --upgrade pip
 }
-
-
-./venv/Scripts/activate.ps1
-
-# Install dependencies
-
-pip install -r requirements.txt
